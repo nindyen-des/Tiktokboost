@@ -1,0 +1,28 @@
+{
+  "name": "tiktok-boost-api",
+  "version": "2.0.0",
+  "description": "TikTok Boost API Service - Auto Views & Likes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "tiktok",
+    "boost",
+    "api",
+    "views",
+    "likes"
+  ],
+  "author": "TOOLIPOP",
+  "license": "MIT"
+}
